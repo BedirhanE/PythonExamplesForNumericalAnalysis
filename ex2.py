@@ -44,8 +44,8 @@ class Ogrenci:
 # Bir fonksiyon tanımladım
 def ogrenci_olustur():
     # Rastgele isim ve soyisim seçiyoruz
-    isimler = ["Ali", "Ayşe", "Mehmet", "Fatma", "Ahmet", "Zeynep"]
-    soyisimler = ["Yılmaz", "Demir", "Kaya", "Çelik", "Öztürk", "Şahin"]
+    isimler = ["Bedirhan", "Ayşe", "Ferhat", "Elif", "Ahmet", "Zeynep"]
+    soyisimler = ["Yılmaz", "Demir", "Çelik", "Kaya", "Öztürk", "Şahin"]
     isim = random.choice(isimler)
     soyisim = random.choice(soyisimler)
     # Rastgele bir numara oluşturuyoruz
