@@ -54,10 +54,10 @@ def ogrenci_olustur():
     ogrenci = Ogrenci(isim, soyisim, numara)
     return ogrenci
 
-# Bir sözlük oluşturdum
+#sözlük oluşturma
 ogrenciler = {}
 
-# Bir dosya açıyoruz
+#Dosya açma işlemi
 with open("ogrenciler.txt", "w") as dosya:
     # Dosyaya başlık yazıyoruz
     dosya.write("İsim\tSoyisim\tNumara\tOrtalama\n")
