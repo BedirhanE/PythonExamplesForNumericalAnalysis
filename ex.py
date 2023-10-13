@@ -4,11 +4,11 @@
 def toplama(x, y):
     return x + y
 
-# Çıkarma işlemi
+# Çıkarma işlemi.
 def cikarma(x, y):
     return x - y
 
-# Çarpma işlemi
+# Çarpma işlemi.
 def carpma(x, y):
     return x * y
 
