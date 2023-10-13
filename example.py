@@ -13,7 +13,7 @@ class Ogrenci:
         self.numara = numara
         self.notlar = [] # Boş bir liste oluşturuyoruz
 
-    # Sınıfın metodlarını tanımladım
+    # Sınıfın metodlarını tanımladım.
     def not_ekle(self, notu):
         # Bir hata yakalama bloğu kullanıyoruz
         try:
