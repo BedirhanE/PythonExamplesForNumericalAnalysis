@@ -17,7 +17,7 @@ print(type(Liste_genis[3]))
 print(type(Liste_genis[2]))
 print(type(Liste_genis[1]))
 
-#Liste Birleştirme işlemi
+#Liste Birleştirme işlemi.
 
 tüm_list=[Notlar,liste,Liste_genis]
 print(tüm_list)
