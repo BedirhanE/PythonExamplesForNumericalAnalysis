@@ -56,10 +56,44 @@ print(örn_list)
 
 
 
+#Koşullu ifadeler
+
+yas = 18
+
+if yas >= 18:
+    print("Ehliyet alabilirsiniz.")
+else:
+    print("Ehliyet alamazsınız.")
+#***********************************
+
+#Döngüler  "FOR DONGUSU"
+meyveler = ["elma", "armut", "kiraz"]
+
+for meyve in meyveler:
+    print(meyve)
+
+
+#"WHILE DONGUSU"
+
+sayac = 0
+
+while sayac < 5:
+    print("Sayac:", sayac)
+    sayac += 1
+
+notlar=0
+while notlar <100:
+    print("sınavdan geçenler:",notlar)
+    notlar+=10
 
 
 
+#"FONKSIYON"
+def toplama(a, b):
+    return a + b
 
+sonuc = toplama(5, 3)
+print("Toplama Sonucu:", sonuc)
 
 
 
