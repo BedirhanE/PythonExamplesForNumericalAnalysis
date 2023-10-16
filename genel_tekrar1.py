@@ -15,7 +15,7 @@ def carpma(x, y):
 # Bölme işlemi
 def bolme(x, y):
     if y == 0:
-        return "Sıfıra bölme hatası!"
+        return "!!!!!!!!!Sıfıra bölme hatası!!!!!!!!!!!"
     return x / y
 
 while True:
