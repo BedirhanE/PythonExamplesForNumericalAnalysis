@@ -33,5 +33,5 @@ sonuc = toplama(3, 4)  # 3 ile 4'ü toplar ve sonucu döndürür
 
 #Modül
 import math
-x = math.sqrt(25)  # 25'in karekökünü hesaplar
+x = math.sqrt(25)  # 25'in karekökünü hesaplar.
 
