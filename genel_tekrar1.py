@@ -1,4 +1,4 @@
-# Temel bir hesap makinesi uygulaması
+# Temel bir hesap makinesi uygulaması.
 
 # Toplama işlemi.
 def toplama(x, y):
