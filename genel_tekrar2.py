@@ -96,8 +96,77 @@ sonuc = toplama(5, 3)
 print("Toplama Sonucu:", sonuc)
 
 
+# CLASS İŞLEMLERİ
+class Kitap:
+    def __init__(self, baslik, yazar, sayfa_sayisi):
+        self.baslik = baslik
+        self.yazar = yazar
+        self.sayfa_sayisi = sayfa_sayisi
+
+    def bilgileri_goster(self):
+        print(f"Kitap Adı: {self.baslik}")
+        print(f"Yazar: {self.yazar}")
+        print(f"Sayfa Sayısı: {self.sayfa_sayisi}\n")
 
 
+# Kitap sınıfından nesneler oluşturalım
+kitap1 = Kitap("Python Programlama", "John Smith", 350)
+kitap2 = Kitap("Veri Bilimi İçin Python", "Jane Doe", 450)
+
+# Kitapların bilgilerini gösterelim
+print("Kitap 1 Bilgileri:")
+kitap1.bilgileri_goster()
+
+print("Kitap 2 Bilgileri:")
+kitap2.bilgileri_goster()
+
+
+# /////////////////////////////////////////////////
+# INHERITANCE (KALITIM)
+
+# Üst sınıf (Soyut sınıf)
+class EvcilHayvan:
+    def __init__(self, isim, tur):
+        self.isim = isim
+        self.tur = tur
+
+    def konus(self):
+        pass
+
+
+# Alt sınıf (Soyut sınıftan türetilmiş)
+class Kedi(EvcilHayvan):
+    def konus(self):
+        return "Miyav!"
+
+
+# Alt sınıf (Soyut sınıftan türetilmiş)
+class Köpek(EvcilHayvan):
+    def konus(self):
+        return "Hav Hav!"
+
+
+# Nesneleri oluştur
+whiskers = Kedi("Whiskers", "Kedi")
+fido = Köpek("Fido", "Köpek")
+
+# Alt sınıfların metotlarını çağır
+print(whiskers.konus())  # Kedi nesnesi, "Miyav!" çıktısı verir.
+print(fido.konus())  # Köpek nesnesi, "Hav Hav!" çıktısı verir.
+
+# iki farklı vektörel listenin çarpılmış hali
+
+import numpy as np
+
+# İki vektörü NumPy dizileri olarak tanımlayın
+vektor1 = np.array([1, 2, 3])
+vektor2 = np.array([4, 5, 6])
+
+# Vektörlerin skalar çarpımını hesaplayın
+skalar_carpim = np.dot(vektor1, vektor2)
+
+# Sonucu yazdırın
+print("Vektörlerin Skalar Çarpımı:", skalar_carpim)
 
 
 
