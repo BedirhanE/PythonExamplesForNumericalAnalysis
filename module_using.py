@@ -14,7 +14,7 @@ from HesapModulu  import yeni_maas
 yeni_maas(1254)
 yeni_maas(7840)
 
-#3 farklı mödül kullanarak fonk. çağırma metodu
+#3 farklı mödül kullanarak fonk. çağırma metodu.
 
 
 import HesapModulu as  hm
