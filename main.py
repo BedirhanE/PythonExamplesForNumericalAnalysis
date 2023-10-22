@@ -4,7 +4,7 @@
 
 x = 5  # Bir tamsayı (int) değişkeni tanımlama
 y = 3.14  # Bir ondalık sayı (float) değişkeni tanımlama
-ad = "Bedirhan"  # Bir metin (string) değişkeni tanımlama
+ad = "Bedirhan"  # Bir metin (string) değişkeni tanımlama.
 
 #Koşullu İfadeler:
 if x > 0:
@@ -33,5 +33,5 @@ sonuc = toplama(3, 4)  # 3 ile 4'ü toplar ve sonucu döndürür
 
 #Modül
 import math
-x = math.sqrt(25)  # 25'in karekökünü hesaplar
+x = math.sqrt(25)  # 25'in karekökünü hesaplar.
 
