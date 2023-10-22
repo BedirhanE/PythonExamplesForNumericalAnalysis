@@ -1,6 +1,6 @@
 # Temel bir hesap makinesi uygulaması
 
-# Toplama işlemi
+# Toplama işlemi.
 def toplama(x, y):
     return x + y
 
